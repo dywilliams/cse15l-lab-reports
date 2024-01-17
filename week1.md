@@ -1,6 +1,6 @@
 # CSE 15L - Lab Report 1 - Dylan Williams
 
-## cd command
+## `cd` command
 using the command with **no arguments**:
 ```
 [user@sahara ~/lecture1}$ cd
@@ -28,7 +28,7 @@ directory at time of command: `/home/lecture1/messages`
 I got this output because using `cd` only works if the argument is a valid directory, which `file.txt` is not. This is reflected in the output as an error message is produced.
 
 
-## ls command
+## `ls` command
 using the command with **no arguments**:
 ```
 [user@sahara ~/lecture1/messages]$ ls
@@ -57,7 +57,7 @@ I got this output because using `ls` while giving a path to a file simply lists 
 No error is produced.
 
 
-## cat command
+## `cat` command
 using the command with **no arguments**:
 ```
 [user@sahara ~/lecture1/messages]$ cat
