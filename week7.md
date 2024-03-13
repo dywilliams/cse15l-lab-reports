@@ -32,6 +32,10 @@ I used `ls` and `cd` to make sure I was in the correct directory to proceed. I t
 
 I typed a vim command, using the tab key to help finish typing the file name, so I could edit the file with the error. I then typed the number of the line before the motion key `j` so I could get to the correct line, as I started with my cursor at the top of the file. After using `e` to get to the correct character, `r2` replaced the character with `2`, and then I saved the file and exited using `:wq`.
 
+Below is the fixed part of the `merge` method in `ListExamples.java` (immediately after I made the changes above).
+
+![Image](Screenshot-listexampleserrorfix.png)
+
 ---
 
 ## Step 8 - Run the tests, demonstrating that they now succeed
